@@ -13,23 +13,23 @@ le terme option dans la page de manuel de which ?**
 
 **4. Chaque section du manuel a une première page, qui présente le contenu de la section. Afficher la
 première page de la section 6 ; de quoi parle cette section ?**
-- man 6 intro
+> man 6 intro
 - La section 6 du manuel décrit les "jeux et petits programmes amusants" disponibles sur le système.
 
 
 ###Navigation dans l’arborescence des fichiers
 
 **1. allez dans le dossier /var/log**
-- cd /var/log
+> cd /var/log
 
 **2. remontez dans le dossier parent (/var) en utilisant un chemin relatif**
-- cd ..
+> cd ..
 
 **3. retournez dans le dossier personnel**
-- cd
+> cd
 
 **4. revenez au dossier précédent (/var) sans utiliser de chemin**
-- cd -
+> cd -
 
 **5. essayez d’accéder au dossier /root ; que se passe-t-il ?**
 - Permission refusée
@@ -39,5 +39,29 @@ première page de la section 6 ; de quoi parle cette section ?**
 - Commande non trouvée parce que "cd est une commande built in du bash, ce n'est pas un programme comme ls qui peut être lancé directement".
 
 **7. à partir de votre dossier personnel, créez l’arborescence suivante**
--cd
+> cd
+> mkdir dossier1
+> cd dossier1
+> touch fichier1
+> cd ..
+> mkdir dossier2
+> cd dossier2
+> mkdir dossier2.1
+> mkdir dossier2.2 
+> cd dossier2.2
+> touch fichier2
+> touch fichier3
 
+**8. revenez dans votre dossier personnel ; à l’aide de la commande rm, essayez de supprimer Fichier1, puis
+Dossier1 ; que se passe-t-il ?**
+> rm dossier1/fichier1
+- ça marche pour supprimer le fichier, mais pas pour le dossier.
+
+**9. quelle commande permet de supprimer un dossier ?**
+> rmdir
+
+**10. que se passe-t-il quand on applique cette commande à Dossier2 ?**
+- ça ne fonctionne pas puisque le dossier2 n'est pas vide
+
+**11. comment supprimer en une seule commande Dossier2 et son contenu ?**
+> rm -r dossier2
