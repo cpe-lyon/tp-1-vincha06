@@ -3,7 +3,7 @@
 
 **2. Quand on consulte une page du manuel, comment peut-on rechercher un terme (par exemple, chercher
 le terme option dans la page de manuel de which ?**
-- man which option
+- man -k option
 
 **3. Comment quitte-t-on le manuel ?**
 - avec "q"
