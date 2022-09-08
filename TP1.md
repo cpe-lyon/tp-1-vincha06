@@ -1,3 +1,5 @@
+
+
 **1.	A l’aide du manuel, identifiez le rôle de la commande which**
 - Elle sert à localiser le chemin d’une commande
 
@@ -10,4 +12,6 @@ le terme option dans la page de manuel de which ?**
 
 **4. Chaque section du manuel a une première page, qui présente le contenu de la section. Afficher la
 première page de la section 6 ; de quoi parle cette section ?**
-- 
+- man 6 intro
+- La section 6 du manuel décrit les "jeux et petits programmes amusants" disponibles sur le système.
+
