@@ -40,8 +40,8 @@ première page de la section 6 ; de quoi parle cette section ?**
 > cd -
 
 **5. essayez d’accéder au dossier /root ; que se passe-t-il ?**
-- Permission refusée
-- -bash: cd: /root: Permission denied
+- Permission refusée :
+- " -bash: cd: /root: Permission denied "
 
 **6. essayez la commande sudo cd /root ; que se passe-t-il ? Expliquez**
 - Commande non trouvée parce que "cd est une commande built in du bash, ce n'est pas un programme comme ls qui peut être lancé directement".
