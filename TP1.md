@@ -14,73 +14,73 @@ Seulement pour les IRC et ETI.
 
 ### 2. Quand on consulte une page du manuel, comment peut-on rechercher un terme (par exemple, chercher
 le terme option dans la page de manuel de which ?
-> man -k option
+- <code> man -k option </code>
 
 ### 3. Comment quitte-t-on le manuel ?
 - avec "q"
 
 ### 4. Chaque section du manuel a une première page, qui présente le contenu de la section. Afficher la
 première page de la section 6 ; de quoi parle cette section ?
-> man 6 intro
+- <code> man 6 intro </code>
 - La première page de la section 6 du manuel est une introduction décrivant les "jeux et petits programmes amusants" disponibles dans le système.
 
 
 ## Navigation dans l’arborescence des fichiers
 
 ### 1. allez dans le dossier /var/log
-> cd /var/log
+- <code> cd /var/log </code>
 
 ### 2. remontez dans le dossier parent (/var) en utilisant un chemin relatif
-> cd ..
+- <code> cd .. </code>
 
 ### 3. retournez dans le dossier personnel
-> cd
+- <code> cd </code>
 
 ### 4. revenez au dossier précédent (/var) sans utiliser de chemin
-> cd -
+- <code> cd - </code>
 
 ### 5. essayez d’accéder au dossier /root ; que se passe-t-il ?
 - Permission refusée :
-- " -bash: cd: /root: Permission denied "
+> -bash: cd: /root: Permission denied
 
 ### 6. essayez la commande sudo cd /root ; que se passe-t-il ? Expliquez
 - Commande non trouvée parce que "cd est une commande built in du bash, ce n'est pas un programme comme ls qui peut être lancé directement".
 
 ### 7. à partir de votre dossier personnel, créez l’arborescence suivante
-> cd
-> mkdir dossier1
-> cd dossier1
-> touch fichier1
-> cd ..
-> mkdir dossier2
-> cd dossier2
-> mkdir dossier2.1
-> mkdir dossier2.2 
-> cd dossier2.2
-> touch fichier2
-> touch fichier3
+- <code> cd </code>
+- <code> mkdir dossier1 </code>
+- <code> cd dossier1 </code>
+- <code> touch fichier1 </code>
+- <code> cd .. </code>
+- <code> mkdir dossier2 </code>
+- <code> cd dossier2 </code>
+- <code> mkdir dossier2.1 </code>
+- <code> mkdir dossier2.2 </code>
+- <code> cd dossier2.2 </code>
+- <code> touch fichier2 </code>
+- <code> touch fichier3 </code>
 
 ### 8. revenez dans votre dossier personnel ; à l’aide de la commande rm, essayez de supprimer Fichier1, puis
 Dossier1 ; que se passe-t-il ?
-> rm dossier1/fichier1
+- <code> rm dossier1/fichier1 </code>
 - ça marche pour supprimer le fichier, mais pas pour le dossier.
 
 ### 9. quelle commande permet de supprimer un dossier ?
-> rmdir
+- <code> rmdir </code>
 
 ### 10. que se passe-t-il quand on applique cette commande à Dossier2 ?
 - ça ne fonctionne pas puisque le dossier2 n'est pas vide
 
 ### 11. comment supprimer en une seule commande Dossier2 et son contenu ?
-> rm -r dossier2
+- <code> rm -r dossier2 </code>
 
 ## Commandes importantes
 
 ### 1. Quelle commande permet d’afficher l’heure ? A quoi sert la commande time ?
 - Pour afficher l'heure:
-> date
+- <code> date </code>
 - La commande "time" sert à afficher le temps d'exécution d'une commande, par exemple:
-> time date 
+- <code> time date  </code>
 - pour afficher le temps d'éxecution de la commande "date".
 
 ### 2. Dans votre dossier personnel, tapez successivement les commandes ls puis la ; que peut-on en déduire
@@ -92,18 +92,18 @@ sur les fichiers commençant par un point ?
 
 ### 4. Essayez la commande ll. Existe-t-il une entrée de manuel pour cette commande ? Utilisez les commandes alias ou alias pour en savoir plus sur la nature de cette commande.
 - Non il n'existe pas d'entrée manuel. Cependant en faisant :
-> alias ll
+- <code> alias ll </code>
 - la commande affiche que "ll" = "ls -alF"
 
 ### 5. Quelle commande permet d’afficher les fichiers contenus dans le dossier /bin ?
-> ls /bin
+- <code> ls /bin </code>
 
 ### 6. Que fait la commande ls .. ?
 - Elle affiche ce que contient le dossier précedent du dossier actuel (dans l'arborescence).
 - C'est un peu comme si on faisait "cd .." puis "ls"
 
 ### 7. Quelle commande donne le chemin complet du dossier courant ?
-> pwd
+- <code> pwd </code>
 
 ### 8. Que fait la commande echo 'bip' > plop exécutée 2 fois ?
 - Elle écrit "bip" 2 fois dans un nouveau fichier "plop", ou remplace son contenu si le fichier existe déjà.
@@ -121,13 +121,12 @@ sur les fichiers commençant par un point ?
 ce fichier avec la commande ln original lien_phy. Modifiez à présent le contenu de original et
 affichez le contenu de lien_phy : qu’observe-t-on ? Supprimez le fichier original ; quelle conséquence
 cela a-t-il sur lien_phy ?
-> echo 'Hello Toto !' > original
-> cd
-> ln original lien_phy
-> cat lien_phy</code>
+- <code> echo 'Hello Toto !' > original </code>
+- <code> cd </code>
+- <code> ln original lien_phy </code>
+- <code> cat lien_phy </code>
 - lien_phy contient "Hello Toto !"
-> echo 'goodbye' > original
-> cat lien_phy
+- <code> echo 'goodbye' > original </code>
 - lien_phy contient "goodbye", cela veut dire que lien_phy est une copie liée à original.
 - En supprimant original, lien_phy n'est pas supprimé et contient toujours "goodbye". 
 
@@ -144,8 +143,8 @@ reprendre le défilement à l’écran ?
 
 ### 15. Affichez les 5 premières lignes du fichier /var/log/syslog, puis les 15 dernières, puis seulement les
 lignes 10 à 20.
-> head -n 5 var/log/syslog
-> tail -n 15 var/log/syslog
+- <code> head -n 5 var/log/syslog </code>
+- <code> tail -n 15 var/log/syslog </code>
 
 
 
