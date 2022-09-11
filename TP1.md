@@ -105,6 +105,35 @@ sur les fichiers commençant par un point ?**
 > pwd
 
 **8. Que fait la commande echo 'bip' > plop exécutée 2 fois ?**
+- Elle écrit "bip" 2 fois dans un nouveau fichier "plop", ou remplace son contenu si le fichier existe déjà.
+
+**9. Que fait la commande echo 'bip' >> plop exécutée 2 fois ?**
+- Elle ajoute deux "bip" à la fin du fichier "plop".
+
+**10. Interprétez le comportement de la commande sleep 10 | echo 'toto' ?**
+- Le shell affiche d'abord "toto", puis il se met en pause/veille pendant 10 secondes.
+
+**11. A quoi sert la commande file ? Essayez la sur des fichiers de types différents.**
+- A afficher plus d'informations sur un fichier notament sur les propriétés de texte, par exemple : "Bourne-Again shell script, ASCII text executable"
+
+**12. Créez un fichier original qui contient la chaîne Hello Toto ! ; créer ensuite un lien lien_phy vers
+ce fichier avec la commande ln original lien_phy. Modifiez à présent le contenu de original et
+affichez le contenu de lien_phy : qu’observe-t-on ? Supprimez le fichier original ; quelle conséquence
+cela a-t-il sur lien_phy ?**
+> echo 'Hello Toto !' > original
+> cd
+> ln original lien_phy
+> cat lien_phy
+- lien_phy contient "Hello Toto !"
+> echo 'goodbye' > original
+> cat lien_phy
+- lien_phy contient "goodbye", cela veut dire que les deux fichiers sont des copies liées.
+- En supprimant original, lien_phy n'est pas supprimé et contient toujours "goodbye". 
+
+13. Créez à présent un lien symbolique lien_sym sur lien_phy avec la commande ln -s lien_phy lien_sym.
+Modifiez le contenu de lien_phy ; quelle conséquence pour lien_sym ? Et inversement ? Supprimez le
+fichier lien_phy ; quelle conséquence cela a-t-il sur lien_sym ?
+
 
 
 
