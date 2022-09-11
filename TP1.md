@@ -47,8 +47,8 @@ première page de la section 6 ; de quoi parle cette section ?
 - Commande non trouvée parce que "cd est une commande built in du bash, ce n'est pas un programme comme ls qui peut être lancé directement".
 
 ### 7. à partir de votre dossier personnel, créez l’arborescence suivante
-<code> cd </code>
-<code> mkdir dossier1 </code>
+- <code> cd </code>
+- <code> mkdir dossier1 </code>
 > cd dossier1
 > touch fichier1
 > cd ..
