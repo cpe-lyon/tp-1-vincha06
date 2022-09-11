@@ -60,8 +60,7 @@ première page de la section 6 ; de quoi parle cette section ?
 - <code> touch fichier2 </code>
 - <code> touch fichier3 </code>
 
-### 8. revenez dans votre dossier personnel ; à l’aide de la commande rm, essayez de supprimer Fichier1, puis
-Dossier1 ; que se passe-t-il ?
+### 8. revenez dans votre dossier personnel ; à l’aide de la commande rm, essayez de supprimer Fichier1, puis Dossier1 ; que se passe-t-il ?
 - <code> rm dossier1/fichier1 </code>
 - ça marche pour supprimer le fichier, mais pas pour le dossier.
 
