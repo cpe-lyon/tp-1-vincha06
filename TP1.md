@@ -2,12 +2,12 @@ Vincent CHAVES - 3ICS
 
 # TP 1 - Installation d’Ubuntu Server et prise en main du shell
 
-## ~~Exercice 1. Installation du serveur~~
-Serveur déjà installé.
+# ~~Exercice 1. Installation du serveur~~
+Seulement pour les IRC et ETI.
 
-## Exercice 2. Prise en main de l’interpréteur de commandes
+# Exercice 2. Prise en main de l’interpréteur de commandes
 
-### Manuel
+## Manuel
 
 **1.	A l’aide du manuel, identifiez le rôle de la commande which**
 - Elle sert à localiser le chemin d’une commande
@@ -25,7 +25,7 @@ première page de la section 6 ; de quoi parle cette section ?**
 - La première page de la section 6 du manuel est une introduction décrivant les "jeux et petits programmes amusants" disponibles dans le système.
 
 
-### Navigation dans l’arborescence des fichiers
+## Navigation dans l’arborescence des fichiers
 
 **1. allez dans le dossier /var/log**
 > cd /var/log
@@ -74,7 +74,7 @@ Dossier1 ; que se passe-t-il ?**
 **11. comment supprimer en une seule commande Dossier2 et son contenu ?**
 > rm -r dossier2
 
-### Commandes importantes
+## Commandes importantes
 
 **1. Quelle commande permet d’afficher l’heure ? A quoi sert la commande time ?**
 - Pour afficher l'heure:
@@ -121,7 +121,7 @@ sur les fichiers commençant par un point ?**
 ce fichier avec la commande ln original lien_phy. Modifiez à présent le contenu de original et
 affichez le contenu de lien_phy : qu’observe-t-on ? Supprimez le fichier original ; quelle conséquence
 cela a-t-il sur lien_phy ?**
-> <code> echo 'Hello Toto !' > original </code>
+/n <code> echo 'Hello Toto !' > original </code>
 > cd
 > ln original lien_phy
 > cat lien_phy
