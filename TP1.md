@@ -1,6 +1,7 @@
 Vincent CHAVES - 3ICS
 
 # TP 1 - Installation d’Ubuntu Server et prise en main du shell
+-
 
 # ~~Exercice 1. Installation du serveur~~
 Seulement pour les IRC et ETI.
