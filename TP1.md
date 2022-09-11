@@ -87,8 +87,7 @@ Dossier1 ; que se passe-t-il ?**
 sur les fichiers commençant par un point ?**
 - Ce sont les fichiers cachés.
 
-**3. Où se situe le programme ls ?**
-- 
+**3. Où se situe le programme ls ?** 
 
 **4. Essayez la commande ll. Existe-t-il une entrée de manuel pour cette commande ? Utilisez les commandes alias ou alias pour en savoir plus sur la nature de cette commande.**
 
