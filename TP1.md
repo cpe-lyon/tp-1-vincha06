@@ -88,6 +88,7 @@ sur les fichiers commençant par un point ?**
 - Ce sont les fichiers cachés. "la" est l'alias de "ls -a".
 
 **3. Où se situe le programme ls ?** 
+- Dans le dossier /user/bin/ls
 
 **4. Essayez la commande ll. Existe-t-il une entrée de manuel pour cette commande ? Utilisez les commandes alias ou alias pour en savoir plus sur la nature de cette commande.**
 - Non il n'existe pas d'entrée manuel. Cependant en faisant :
@@ -120,19 +121,33 @@ sur les fichiers commençant par un point ?**
 ce fichier avec la commande ln original lien_phy. Modifiez à présent le contenu de original et
 affichez le contenu de lien_phy : qu’observe-t-on ? Supprimez le fichier original ; quelle conséquence
 cela a-t-il sur lien_phy ?**
-> echo 'Hello Toto !' > original
-> cd
-> ln original lien_phy
-> cat lien_phy
+'''console
+echo 'Hello Toto !' > original
+cd
+ln original lien_phy
+cat lien_phy
+'''
 - lien_phy contient "Hello Toto !"
 > echo 'goodbye' > original
 > cat lien_phy
-- lien_phy contient "goodbye", cela veut dire que les deux fichiers sont des copies liées.
+
+- lien_phy contient "goodbye", cela veut dire que lien_phy est une copie liée à original.
 - En supprimant original, lien_phy n'est pas supprimé et contient toujours "goodbye". 
 
-13. Créez à présent un lien symbolique lien_sym sur lien_phy avec la commande ln -s lien_phy lien_sym.
+**13. Créez à présent un lien symbolique lien_sym sur lien_phy avec la commande ln -s lien_phy lien_sym.
 Modifiez le contenu de lien_phy ; quelle conséquence pour lien_sym ? Et inversement ? Supprimez le
-fichier lien_phy ; quelle conséquence cela a-t-il sur lien_sym ?
+fichier lien_phy ; quelle conséquence cela a-t-il sur lien_sym ?**
+- Modifier lien_phy modifie aussi lien_sym.
+- Pareillement en sens inverse.
+- Lorsque l'on supprime lien_phy, lien_sym est affiché en rouge et ne peut plus être ouvert.
+
+**14. Affichez à l’écran le fichier /var/log/syslog. Quels raccourcis clavier permettent d’interrompre et
+reprendre le défilement à l’écran ?**
+- Ctrl + S permet d'interrompre le défilement à l'écran, puis Ctrl pour le reprende.
+
+**15. Affichez les 5 premières lignes du fichier /var/log/syslog, puis les 15 dernières, puis seulement les
+lignes 10 à 20.**
+
 
 
 
