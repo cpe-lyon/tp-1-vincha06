@@ -85,9 +85,23 @@ Dossier1 ; que se passe-t-il ?**
 
 **2. Dans votre dossier personnel, tapez successivement les commandes ls puis la ; que peut-on en déduire
 sur les fichiers commençant par un point ?**
-- Ce sont les fichiers cachés.
+- Ce sont les fichiers cachés. "la" est l'alias de "ls -a".
 
 **3. Où se situe le programme ls ?** 
 
 **4. Essayez la commande ll. Existe-t-il une entrée de manuel pour cette commande ? Utilisez les commandes alias ou alias pour en savoir plus sur la nature de cette commande.**
+- Non il n'existe pas d'entrée manuel. Cependant en faisant :
+> alias ll
+- la commande affiche que "ll" = "ls -alF"
+
+**5. Quelle commande permet d’afficher les fichiers contenus dans le dossier /bin ?**
+> ls /bin
+
+**6. Que fait la commande ls .. ?**
+- Elle affiche ce que contient le dossier précedent du dossier actuel (dans l'arborescence).
+- C'est un peu comme si on faisait "cd .." puis "ls"
+
+**7. Quelle commande donne le chemin complet du dossier courant ?**
+
+
 
