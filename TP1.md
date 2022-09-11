@@ -180,10 +180,11 @@ de manuel de ce fichier ?
 - Non il n'apparaît pas puisque la commande locate utilise une base de donnée qui n'est pas mise à jour en temps réel.
 - Puisqu'on vient de créer le fichier, il faut donc faire <code> sudo updatedb </code> pour la mettre à jour.
 - On fait ensuite <code> locate nom_du_fichier </code>
-- J'obtiens : 
-> /home/User/abcdz
+- J'obtiens :
+- ![12](https://user-images.githubusercontent.com/113091304/189550192-abbf80da-2d10-4996-8f0c-1b6bc3873b30.JPG)
 
 # Exercice 3. Découverte de l’éditeur de texte nano
+
 
 
   
