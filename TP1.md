@@ -157,7 +157,6 @@ de manuel de ce fichier ?
 
 ### 19. Quelle commande nous donne le nombre d’utilisateurs ayant un compte sur cette machine (pas seulement les utilisateurs connectés) ?
 <code> cut -d: -f1 /etc/passwd | sort -r | wc -w </code>
-> 34
 
 ### 20. Combien de pages de manuel comportent le mot-clé conversion dans leur description ?
 <code> man -k conversion | wc -l </code>
@@ -181,7 +180,6 @@ de manuel de ce fichier ?
 - J'obtiens :
 - ![12](https://user-images.githubusercontent.com/113091304/189550192-abbf80da-2d10-4996-8f0c-1b6bc3873b30.JPG)
 
-# Exercice 3. Découverte de l’éditeur de texte nano
 
 
 
