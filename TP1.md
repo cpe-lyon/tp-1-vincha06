@@ -22,10 +22,10 @@ le terme option dans la page de manuel de which ?**
 **4. Chaque section du manuel a une première page, qui présente le contenu de la section. Afficher la
 première page de la section 6 ; de quoi parle cette section ?**
 > man 6 intro
-- La section 6 du manuel décrit les "jeux et petits programmes amusants" disponibles sur le système.
+- La première page de la section 6 du manuel est une introduction décrivant les "jeux et petits programmes amusants" disponibles dans le système.
 
 
-# Navigation dans l’arborescence des fichiers
+### Navigation dans l’arborescence des fichiers
 
 **1. allez dans le dossier /var/log**
 > cd /var/log
@@ -73,3 +73,22 @@ Dossier1 ; que se passe-t-il ?**
 
 **11. comment supprimer en une seule commande Dossier2 et son contenu ?**
 > rm -r dossier2
+
+### Commandes importantes
+
+**1. Quelle commande permet d’afficher l’heure ? A quoi sert la commande time ?**
+- Pour afficher l'heure:
+> date
+- La commande "time" sert à afficher le temps d'exécution d'une commande, par exemple:
+> time date 
+- pour afficher le temps d'éxecution de la commande "date".
+
+**2. Dans votre dossier personnel, tapez successivement les commandes ls puis la ; que peut-on en déduire
+sur les fichiers commençant par un point ?**
+- Ce sont les fichiers cachés.
+
+**3. Où se situe le programme ls ?**
+- 
+
+**4. Essayez la commande ll. Existe-t-il une entrée de manuel pour cette commande ? Utilisez les commandes alias ou alias pour en savoir plus sur la nature de cette commande.**
+
