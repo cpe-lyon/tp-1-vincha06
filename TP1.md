@@ -102,6 +102,11 @@ sur les fichiers commençant par un point ?**
 - C'est un peu comme si on faisait "cd .." puis "ls"
 
 **7. Quelle commande donne le chemin complet du dossier courant ?**
+> pwd
+
+**8. Que fait la commande echo 'bip' > plop exécutée 2 fois ?**
+
+
 
 
 
