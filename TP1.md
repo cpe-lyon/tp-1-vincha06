@@ -1,5 +1,13 @@
+# TP 1 - Installation d’Ubuntu Server et prise
+en main du shell
+## Vincent CHAVES - 3ICS
 
-# Manuel
+## ~~Exercice 1. Installation du serveur~~
+Serveur déjà installé
+
+## Exercice 2. Prise en main de l’interpréteur de commandes
+
+### Manuel
 
 **1.	A l’aide du manuel, identifiez le rôle de la commande which**
 - Elle sert à localiser le chemin d’une commande
