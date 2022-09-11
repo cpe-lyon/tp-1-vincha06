@@ -155,7 +155,7 @@ de manuel de ce fichier ?
 - Pour afficher la page de manuel il faut entrer <code> man passwd </code>
 
 ### 18. Affichez seulement la première colonne triée par ordre alphabétique inverse
-<code> cut -d: -f1 /etc/passwd | sort -r </code>
+- <code> cut -d: -f1 /etc/passwd | sort -r </code>
 
 ### 19. Quelle commande nous donne le nombre d’utilisateurs ayant un compte sur cette machine (pas seulement les utilisateurs connectés) ?
 <code> cut -d: -f1 /etc/passwd | sort -r | wc -w </code>
@@ -166,22 +166,28 @@ de manuel de ce fichier ?
 > 141
 
 ### 21. A l’aide de la commande find, recherchez tous les fichiers se nommant passwd présents sur la machine
-<code> find / -name 'passwd' </code>
+- <code> find / -name 'passwd' </code>
 
 ### 22. Modifiez la commande précédente pour que la liste des fichiers trouvés soit enregistrée dans le fichier ~/list_passwd_files.txt et que les erreurs soient redirigées vers le fichier spécial /dev/null
-<code> find / -name 'passwd' > ~/list_passwd_files.txt 2> /dev/null </code>
+- <code> find / -name 'passwd' > ~/list_passwd_files.txt 2> /dev/null </code>
 
 ### 24. Utilisez la commande locate pour trouver le fichier history.log.
-<code> sudo apt install plocate </code>
-<code> locate history.log </code>
-![Capture](https://user-images.githubusercontent.com/113091304/189549811-86ab8e02-557a-4996-9fda-9236b20facb3.JPG)
+- <code> sudo apt install plocate </code>
+- <code> locate history.log </code>
+- ![Capture](https://user-images.githubusercontent.com/113091304/189549811-86ab8e02-557a-4996-9fda-9236b20facb3.JPG)
 
 ### 25. Créer un fichier dans votre dossier personnel puis utilisez locate pour le trouver. Apparaît-il ? Pourquoi ?
 - Non il n'apparaît pas puisque la commande locate utilise une base de donnée qui n'est pas mise à jour en temps réel.
 - Puisqu'on vient de créer le fichier, il faut donc faire <code> sudo updatedb </code> pour la mettre à jour.
-- On fait ensuite <code> locate nom_du_fichier <code>
+- On fait ensuite <code> locate nom_du_fichier </code>
 - J'obtiens : 
-  > /home/User/abcdz
+> /home/User/abcdz
+
+# Exercice 3. Découverte de l’éditeur de texte nano
+
+
+  
+
   
  
 
