@@ -122,10 +122,10 @@ ce fichier avec la commande ln original lien_phy. Modifiez à présent le conten
 affichez le contenu de lien_phy : qu’observe-t-on ? Supprimez le fichier original ; quelle conséquence
 cela a-t-il sur lien_phy ?**
 <code>
-echo 'Hello Toto !' > original
-cd
-ln original lien_phy
-cat lien_phy
+> echo 'Hello Toto !' > original
+> cd
+> ln original lien_phy
+> cat lien_phy
 </code>
 - lien_phy contient "Hello Toto !"
 > echo 'goodbye' > original
