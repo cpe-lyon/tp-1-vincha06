@@ -121,7 +121,7 @@ sur les fichiers commençant par un point ?**
 ce fichier avec la commande ln original lien_phy. Modifiez à présent le contenu de original et
 affichez le contenu de lien_phy : qu’observe-t-on ? Supprimez le fichier original ; quelle conséquence
 cela a-t-il sur lien_phy ?**
-/n <code> echo 'Hello Toto !' > original </code>
+- <code> echo 'Hello Toto !' > original </code>
 > cd
 > ln original lien_phy
 > cat lien_phy
