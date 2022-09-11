@@ -142,8 +142,9 @@ reprendre le défilement à l’écran ?
 
 ### 15. Affichez les 5 premières lignes du fichier /var/log/syslog, puis les 15 dernières, puis seulement les
 lignes 10 à 20.
-- <code> head -n 5 var/log/syslog </code>
-- <code> tail -n 15 var/log/syslog </code>
+- Pour les 5 premières lignes : <code> head -n 5 var/log/syslog </code>
+- Pour les 15 dernières : <code> tail -n 15 var/log/syslog </code>
+- Pour les lignes 10 à 20 : <code> sed -n 10,20p /var/log/syslog </code>
 
 
 
