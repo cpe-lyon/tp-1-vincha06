@@ -3,7 +3,7 @@
 # TP 1 - Installation d’Ubuntu Server et prise en main du shell
 
 ## ~~Exercice 1. Installation du serveur~~
-Serveur déjà installé
+Serveur déjà installé.
 
 ## Exercice 2. Prise en main de l’interpréteur de commandes
 
