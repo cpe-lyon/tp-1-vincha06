@@ -9,7 +9,7 @@ Seulement pour les IRC et ETI.
 
 ## Manuel
 
-**1.	A l’aide du manuel, identifiez le rôle de la commande which**
+# **1.	A l’aide du manuel, identifiez le rôle de la commande which**
 - Elle sert à localiser le chemin d’une commande
 
 **2. Quand on consulte une page du manuel, comment peut-on rechercher un terme (par exemple, chercher
@@ -145,8 +145,6 @@ reprendre le défilement à l’écran ?**
 
 **15. Affichez les 5 premières lignes du fichier /var/log/syslog, puis les 15 dernières, puis seulement les
 lignes 10 à 20.**
-
-
 
 
 
