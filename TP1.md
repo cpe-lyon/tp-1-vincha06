@@ -1,5 +1,4 @@
-# TP 1 - Installation d’Ubuntu Server et prise
-en main du shell
+# TP 1 - Installation d’Ubuntu Server et prise en main du shell
 ## Vincent CHAVES - 3ICS
 
 ## ~~Exercice 1. Installation du serveur~~
