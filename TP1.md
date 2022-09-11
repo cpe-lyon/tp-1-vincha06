@@ -1,4 +1,4 @@
-## - Vincent CHAVES - 3ICS
+Vincent CHAVES - 3ICS
 
 # TP 1 - Installation d’Ubuntu Server et prise en main du shell
 
