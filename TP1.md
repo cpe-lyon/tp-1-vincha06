@@ -9,7 +9,7 @@ Seulement pour les IRC et ETI.
 
 ## Manuel
 
-# **1.	A l’aide du manuel, identifiez le rôle de la commande which**
+### **1.	A l’aide du manuel, identifiez le rôle de la commande which**
 - Elle sert à localiser le chemin d’une commande
 
 **2. Quand on consulte une page du manuel, comment peut-on rechercher un terme (par exemple, chercher
