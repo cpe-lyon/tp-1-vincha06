@@ -147,8 +147,7 @@ lignes 10 à 20.
 ### 16. Que fait la commande dmesg | less ?
 - Celà indique qu'il n'est pas possible d'éxecuter cette commande, et le symbole ~ s'affiche constamment.
 
-### 17. Affichez à l’écran le fichier /etc/passwd ; que contient-il ? Quelle commande permet d’afficher la page
-de manuel de ce fichier ?
+### 17. Affichez à l’écran le fichier /etc/passwd ; que contient-il ? Quelle commande permet d’afficher la page de manuel de ce fichier ?
 - Il contient les informations des utilisateurs.
 - Pour afficher la page de manuel il faut entrer <code> man passwd </code>
 
