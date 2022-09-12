@@ -162,10 +162,13 @@ lignes 10 à 20.
 > 141
 
 ### 21. A l’aide de la commande find, recherchez tous les fichiers se nommant passwd présents sur la machine
-- <code> find / -name 'passwd' </code>
+- <code> find / -name passwd </code>
 
 ### 22. Modifiez la commande précédente pour que la liste des fichiers trouvés soit enregistrée dans le fichier ~/list_passwd_files.txt et que les erreurs soient redirigées vers le fichier spécial /dev/null
-- <code> find / -name 'passwd' > ~/list_passwd_files.txt 2> /dev/null </code>
+- <code> find / -name passwd > ~/list_passwd_files.txt 2> /dev/null </code>
+
+### 23. Dans votre dossier personnel, utilisez la commande grep pour chercher où est défini l’alias ll vu précédemment
+- <code> cat .bashrc | grep 11 </code>
 
 ### 24. Utilisez la commande locate pour trouver le fichier history.log.
 - <code> sudo apt install plocate </code>
