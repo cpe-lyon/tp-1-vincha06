@@ -182,6 +182,27 @@ lignes 10 à 20.
 - J'obtiens :
 - ![12](https://user-images.githubusercontent.com/113091304/189550192-abbf80da-2d10-4996-8f0c-1b6bc3873b30.JPG)
 
+# Exercice 3. Prise en main de l’interpréteur de commandes
+
+### 1. Copiez le fichier /var/log/syslog dans votre dossier personnel sous le nom log.txt, puis ouvrez-le avec nano
+- <code> cp /var/log/syslog ~/log.txt </code>
+- <code> nano log.txt </code>
+- ![image](https://user-images.githubusercontent.com/113091304/189610261-68ed036a-c256-4ad0-840a-d1207bdfb97c.png)
+
+### 2. Remplacez toutes les occurrences du mot kernel par le mot noyau
+- <code> cat log.txt | tr kernel noyau </code>
+- Ou alors en utilisant l'éditeur nano :
+- "Ctrl + 6"
+- On remplace "kernel" par "noyau"
+- ![image](https://user-images.githubusercontent.com/113091304/189617114-d7e6e26f-fb4c-4fa4-9100-f06a5d5e4968.png)
+- puis "A" pour l'appliquer à tous les mots "kernel"
+- ![image](https://user-images.githubusercontent.com/113091304/189620222-208d2cde-a5bf-44b5-bde5-bf97718226be.png)
+
+### 3. Déplacer les 10 premières lignes à la fin du fichier
+
+
+
+
 
 
 
