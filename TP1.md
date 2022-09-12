@@ -199,6 +199,22 @@ lignes 10 à 20.
 - ![image](https://user-images.githubusercontent.com/113091304/189620222-208d2cde-a5bf-44b5-bde5-bf97718226be.png)
 
 ### 3. Déplacer les 10 premières lignes à la fin du fichier
+- Il faut faire Ctrl + K pour couper, puis Ctrl + ↓ pour aller à la fin du fichier, puis Ctrl + U pour coller.
+- ![image](https://user-images.githubusercontent.com/113091304/189622347-f86de8c2-b77f-4398-93cc-deadeca5e4c6.png)
+
+### 4. Annulez cette action
+- Il faut faire Alt + U pour annuler
+
+### 5. Enregistrez le fichier avant de quitter nano
+- Il faut faire Ctrl + O puis Enter
+
+# Exercice 4. Personnalisation du shell
+
+### 1. Commencez par créer une copie de ce fichier, que vous appellerez .bashrc_bak
+
+
+
+
 
 
 
