@@ -211,6 +211,15 @@ lignes 10 à 20.
 # Exercice 4. Personnalisation du shell
 
 ### 1. Commencez par créer une copie de ce fichier, que vous appellerez .bashrc_bak
+- <code> cat ~/.bashrc > ~/.bashrc_bak </code>
+
+### 2. Editez le fichier .bashrc avec nano et décommentez la ligne force_color_prompt=yes pour activer la couleur. Enregistrez le fichier et quittez nano.
+- <code> nano .bashrc </code>
+- ![image](https://user-images.githubusercontent.com/113091304/190159825-1a2688d6-efae-402a-a78f-6be0282f7f51.png)
+
+### 3. Le fichier .bashrc est lu au démarrage du shell ; pour le recharger, il faudrait donc se déconnecter puis se reconnecter ; mais il existe un autre moyen : la commande source .bashrc. Testez-la, l’invite de commande devrait immédiatement passer en couleurs.
+
+
 
 
 
