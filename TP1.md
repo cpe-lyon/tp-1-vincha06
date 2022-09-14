@@ -218,6 +218,11 @@ lignes 10 à 20.
 - ![image](https://user-images.githubusercontent.com/113091304/190159825-1a2688d6-efae-402a-a78f-6be0282f7f51.png)
 
 ### 3. Le fichier .bashrc est lu au démarrage du shell ; pour le recharger, il faudrait donc se déconnecter puis se reconnecter ; mais il existe un autre moyen : la commande source .bashrc. Testez-la, l’invite de commande devrait immédiatement passer en couleurs.
+- ![image](https://user-images.githubusercontent.com/113091304/190161061-0af8bcdf-c43e-4140-871e-2cd5ce70c7ce.png)
+
+### 4. Les couleurs par défauts (surtout celle du dossier courant) ne sont pas très visibles. Dans .bashrc, cherchez les lignes commençant par PS1= ; elles indiquent la mise en forme de l’invite de commande (selon que l’on est en couleurs ou non). Sur cette ligne, on peut distinguer un certain nombre de raccourcis.Modifiez l’invite de commande pour qu’elle s’affiche sous la forme suivante : [heure] - user@host:chemin_courant$
+- <code> PS1='${debian_chroot:+($debian_chroot)}[\033[01;31m]\A[\033[01;30m]] - [\033[01;32m]\u@\h[\033[01;36m]\w[\033[30m]$' </code>
+- ![image](https://user-images.githubusercontent.com/113091304/190175134-91aabaa6-158f-41eb-81a8-15e1843022ce.png)
 
 
 
